@@ -1,4 +1,4 @@
-# @metanorma/ocl
+# @lutaml/ocl
 
 OCL (Object Constraint Language) expression engine for TypeScript.
 
@@ -20,13 +20,13 @@ workflows:
 ## Installation
 
 ```sh
-npm install @metanorma/ocl
+npm install @lutaml/ocl
 ```
 
 ## Usage
 
 ```typescript
-import { parseOcl, OclEvaluator, type EvaluationContext } from '@metanorma/ocl'
+import { parseOcl, OclEvaluator, type EvaluationContext } from '@lutaml/ocl'
 
 const ast = parseOcl('ocl{ [load] * 0.5 }')
 const ctx: EvaluationContext = { measurements: { load: 100 } }

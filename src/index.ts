@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════════════════════════════════
-// @metanorma/ocl
+// @lutaml/ocl
 //
 // OCL (Object Constraint Language) expression engine for TypeScript.
 // Standalone library — no project-specific dependencies.

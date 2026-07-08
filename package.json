@@ -1,31 +1,32 @@
 {
-  "name": "@metanorma/ocl",
+  "name": "@lutaml/ocl",
   "version": "0.1.0",
   "description": "OCL (Object Constraint Language) expression engine for TypeScript — lexer, parser, evaluator, and validator",
   "type": "module",
   "license": "BSD-3-Clause",
   "author": "Ribose",
-  "homepage": "https://github.com/metanorma/ocl-js#readme",
+  "homepage": "https://github.com/lutaml/ocl-js#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/metanorma/ocl-js.git"
+    "url": "git+https://github.com/lutaml/ocl-js.git"
   },
   "bugs": {
-    "url": "https://github.com/metanorma/ocl-js/issues"
+    "url": "https://github.com/lutaml/ocl-js/issues"
   },
   "keywords": [
     "ocl",
     "object-constraint-language",
     "expression",
     "evaluator",
-    "metanorma",
+    "lutaml",
     "constraints"
   ],
   "engines": {
     "node": ">=20"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "main": "./dist/ocl.cjs",
   "module": "./dist/ocl.js",
