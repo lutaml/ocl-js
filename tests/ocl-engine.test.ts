@@ -1,8 +1,8 @@
 import { describe, it, expect } from 'vitest'
-import { tokenize, stripOclPrefix } from '@metanorma/ocl'
-import { OclParser, parseOcl } from '@metanorma/ocl'
-import { OclEvaluator, type EvaluationContext, type ContextVars } from '@metanorma/ocl'
-import { validateOclExpression, detectCircularDependencies } from '@metanorma/ocl'
+import { tokenize, stripOclPrefix } from '@lutaml/ocl'
+import { OclParser, parseOcl } from '@lutaml/ocl'
+import { OclEvaluator, type EvaluationContext, type ContextVars } from '@lutaml/ocl'
+import { validateOclExpression, detectCircularDependencies } from '@lutaml/ocl'
 
 function evalExpr(expr: string, ctx: Partial<EvaluationContext> = {}): unknown {
   const stripped = stripOclPrefix(expr)

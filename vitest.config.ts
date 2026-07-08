@@ -4,7 +4,7 @@ import { resolve } from 'node:path'
 export default defineConfig({
   resolve: {
     alias: {
-      '@metanorma/ocl': resolve(__dirname, 'src/index.ts'),
+      '@lutaml/ocl': resolve(__dirname, 'src/index.ts'),
     },
   },
   test: {
