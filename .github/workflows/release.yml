@@ -16,7 +16,6 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    environment: release
     steps:
       - uses: actions/checkout@v4
 
