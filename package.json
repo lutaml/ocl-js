@@ -1,6 +1,6 @@
 {
   "name": "@lutaml/ocl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OCL (Object Constraint Language) expression engine for TypeScript — lexer, parser, evaluator, and validator",
   "type": "module",
   "license": "BSD-3-Clause",
