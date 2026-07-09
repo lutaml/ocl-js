@@ -24,9 +24,7 @@ jobs:
           node-version: '24'
           # NO registry-url — prevents setup-node from writing _authToken
           # to .npmrc, which would shadow OIDC auth from trusted publishing.
-
-      - name: Upgrade npm (Trusted Publishers needs npm ≥10.9.1)
-        run: npm install -g npm@latest && npm --version
+          # Node 24 bundles npm 11.x, which supports Trusted Publishers (≥10.9.1).
 
       - run: npm ci
 
