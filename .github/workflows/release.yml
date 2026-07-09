@@ -26,7 +26,9 @@ jobs:
           # to .npmrc, which would shadow OIDC auth from trusted publishing.
 
       - name: Upgrade npm (Trusted Publishers needs npm ≥10.9.1)
-        run: npm install -g npm@latest && npm --version
+        # Pin to npm 11.x — the last line that supports Node 20.
+        # npm 12+ requires Node ≥22.22, which would need a workflow Node bump.
+        run: npm install -g 'npm@^11' && npm --version
 
       - run: npm ci
 
