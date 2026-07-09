@@ -21,7 +21,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
           # NO registry-url — prevents setup-node from writing _authToken
           # to .npmrc, which would shadow OIDC auth from trusted publishing.
 
